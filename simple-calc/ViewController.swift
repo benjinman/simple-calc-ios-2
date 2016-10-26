@@ -94,6 +94,7 @@ class ViewController: UIViewController {
     
     @IBAction func divide(_ sender: AnyObject) {
         result.text! += " / "
+        oprtr = divide
     }
     
     @IBAction func modulo(_ sender: AnyObject) {
