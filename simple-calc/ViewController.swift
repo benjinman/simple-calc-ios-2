@@ -24,44 +24,52 @@ class ViewController: UIViewController {
     }
     
     @IBAction func one(_ sender: AnyObject) {
-        result.text! += "1"
+        addNumber(1)
     }
     
     @IBAction func two(_ sender: AnyObject) {
-        result.text! += "2"
+        addNumber(2)
     }
     
     @IBAction func three(_ sender: AnyObject) {
-        result.text! += "3"
+        addNumber(3)
     }
     
     @IBAction func four(_ sender: AnyObject) {
-        result.text! += "4"
+        addNumber(4)
     }
     
     @IBAction func five(_ sender: AnyObject) {
-        result.text! += "5"
+        addNumber(5)
     }
     
     @IBAction func six(_ sender: AnyObject) {
-        result.text! += "6"
+        addNumber(6)
     }
     
     @IBAction func seven(_ sender: AnyObject) {
-        result.text! += "7"
+        addNumber(7)
     }
     
     @IBAction func eight(_ sender: AnyObject) {
-        result.text! += "8"
+        addNumber(8)
     }
     
     @IBAction func nine(_ sender: AnyObject) {
-        result.text! += "9"
+        addNumber(9)
     }
     
     @IBAction func zero(_ sender: AnyObject) {
         if result.text != nil && result.text != "" {
             result.text! += "0"
+        }
+    }
+    
+    func addNumber(_ number: Int) {
+        if (result.text == "0") {
+            result.text! = String(number)
+        } else {
+            result.text! += String(number)
         }
     }
     
@@ -173,7 +181,7 @@ class ViewController: UIViewController {
                 answer = fact(num: numbers[0]);
             }
             result.text! = String(answer)
-        } else {
+        } else if(line.contains("+") || line.contains("-") || line.contains("*") || line.contains("/") || line.contains("%")) {
             let nums = line.characters.split(separator: " ")
             let firstNum : Int = Int(String(nums[0]))!
             let secondNum : Int = Int(String(nums[2]))!
