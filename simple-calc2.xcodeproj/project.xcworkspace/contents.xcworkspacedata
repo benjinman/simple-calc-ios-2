@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:simple-calc.xcodeproj">
+      location = "self:/Users/iguest/Desktop/simple-calc-iOS/simple-calc2.xcodeproj">
    </FileRef>
 </Workspace>

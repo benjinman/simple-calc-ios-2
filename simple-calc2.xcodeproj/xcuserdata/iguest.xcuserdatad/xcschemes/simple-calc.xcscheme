@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9DCE63C31DC011C600E1FF33"
-               BuildableName = "simple-calc.app"
-               BlueprintName = "simple-calc"
-               ReferencedContainer = "container:simple-calc.xcodeproj">
+               BuildableName = "simple-calc2.app"
+               BlueprintName = "simple-calc2"
+               ReferencedContainer = "container:simple-calc2.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9DCE63D71DC011C700E1FF33"
-               BuildableName = "simple-calcTests.xctest"
-               BlueprintName = "simple-calcTests"
-               ReferencedContainer = "container:simple-calc.xcodeproj">
+               BuildableName = "simple-calc2Tests.xctest"
+               BlueprintName = "simple-calc2Tests"
+               ReferencedContainer = "container:simple-calc2.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "9DCE63E21DC011C700E1FF33"
-               BuildableName = "simple-calcUITests.xctest"
-               BlueprintName = "simple-calcUITests"
-               ReferencedContainer = "container:simple-calc.xcodeproj">
+               BuildableName = "simple-calc2UITests.xctest"
+               BlueprintName = "simple-calc2UITests"
+               ReferencedContainer = "container:simple-calc2.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9DCE63C31DC011C600E1FF33"
-            BuildableName = "simple-calc.app"
-            BlueprintName = "simple-calc"
-            ReferencedContainer = "container:simple-calc.xcodeproj">
+            BuildableName = "simple-calc2.app"
+            BlueprintName = "simple-calc2"
+            ReferencedContainer = "container:simple-calc2.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9DCE63C31DC011C600E1FF33"
-            BuildableName = "simple-calc.app"
-            BlueprintName = "simple-calc"
-            ReferencedContainer = "container:simple-calc.xcodeproj">
+            BuildableName = "simple-calc2.app"
+            BlueprintName = "simple-calc2"
+            ReferencedContainer = "container:simple-calc2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "9DCE63C31DC011C600E1FF33"
-            BuildableName = "simple-calc.app"
-            BlueprintName = "simple-calc"
-            ReferencedContainer = "container:simple-calc.xcodeproj">
+            BuildableName = "simple-calc2.app"
+            BlueprintName = "simple-calc2"
+            ReferencedContainer = "container:simple-calc2.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -34,17 +34,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9DCE63C41DC011C700E1FF33 /* simple-calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCE63C41DC011C700E1FF33 /* simple-calc2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "simple-calc2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCE63C71DC011C700E1FF33 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9DCE63C91DC011C700E1FF33 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9DCE63CC1DC011C700E1FF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9DCE63CE1DC011C700E1FF33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9DCE63D11DC011C700E1FF33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9DCE63D31DC011C700E1FF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DCE63D81DC011C700E1FF33 /* simple-calcTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-calcTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCE63D81DC011C700E1FF33 /* simple-calc2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-calc2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCE63DC1DC011C700E1FF33 /* simple_calcTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_calcTests.swift; sourceTree = "<group>"; };
 		9DCE63DE1DC011C700E1FF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9DCE63E31DC011C700E1FF33 /* simple-calcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-calcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCE63E31DC011C700E1FF33 /* simple-calc2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "simple-calc2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DCE63E71DC011C700E1FF33 /* simple_calcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = simple_calcUITests.swift; sourceTree = "<group>"; };
 		9DCE63E91DC011C700E1FF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +87,9 @@
 		9DCE63C51DC011C700E1FF33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9DCE63C41DC011C700E1FF33 /* simple-calc.app */,
-				9DCE63D81DC011C700E1FF33 /* simple-calcTests.xctest */,
-				9DCE63E31DC011C700E1FF33 /* simple-calcUITests.xctest */,
+				9DCE63C41DC011C700E1FF33 /* simple-calc2.app */,
+				9DCE63D81DC011C700E1FF33 /* simple-calc2Tests.xctest */,
+				9DCE63E31DC011C700E1FF33 /* simple-calc2UITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,9 +128,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9DCE63C31DC011C600E1FF33 /* simple-calc */ = {
+		9DCE63C31DC011C600E1FF33 /* simple-calc2 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DCE63EC1DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calc" */;
+			buildConfigurationList = 9DCE63EC1DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calc2" */;
 			buildPhases = (
 				9DCE63C01DC011C600E1FF33 /* Sources */,
 				9DCE63C11DC011C600E1FF33 /* Frameworks */,
@@ -140,14 +140,14 @@
 			);
 			dependencies = (
 			);
-			name = "simple-calc";
+			name = "simple-calc2";
 			productName = "simple-calc";
-			productReference = 9DCE63C41DC011C700E1FF33 /* simple-calc.app */;
+			productReference = 9DCE63C41DC011C700E1FF33 /* simple-calc2.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9DCE63D71DC011C700E1FF33 /* simple-calcTests */ = {
+		9DCE63D71DC011C700E1FF33 /* simple-calc2Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DCE63EF1DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calcTests" */;
+			buildConfigurationList = 9DCE63EF1DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calc2Tests" */;
 			buildPhases = (
 				9DCE63D41DC011C700E1FF33 /* Sources */,
 				9DCE63D51DC011C700E1FF33 /* Frameworks */,
@@ -158,14 +158,14 @@
 			dependencies = (
 				9DCE63DA1DC011C700E1FF33 /* PBXTargetDependency */,
 			);
-			name = "simple-calcTests";
+			name = "simple-calc2Tests";
 			productName = "simple-calcTests";
-			productReference = 9DCE63D81DC011C700E1FF33 /* simple-calcTests.xctest */;
+			productReference = 9DCE63D81DC011C700E1FF33 /* simple-calc2Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		9DCE63E21DC011C700E1FF33 /* simple-calcUITests */ = {
+		9DCE63E21DC011C700E1FF33 /* simple-calc2UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9DCE63F21DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calcUITests" */;
+			buildConfigurationList = 9DCE63F21DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calc2UITests" */;
 			buildPhases = (
 				9DCE63DF1DC011C700E1FF33 /* Sources */,
 				9DCE63E01DC011C700E1FF33 /* Frameworks */,
@@ -176,9 +176,9 @@
 			dependencies = (
 				9DCE63E51DC011C700E1FF33 /* PBXTargetDependency */,
 			);
-			name = "simple-calcUITests";
+			name = "simple-calc2UITests";
 			productName = "simple-calcUITests";
-			productReference = 9DCE63E31DC011C700E1FF33 /* simple-calcUITests.xctest */;
+			productReference = 9DCE63E31DC011C700E1FF33 /* simple-calc2UITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -208,7 +208,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9DCE63BF1DC011C600E1FF33 /* Build configuration list for PBXProject "simple-calc" */;
+			buildConfigurationList = 9DCE63BF1DC011C600E1FF33 /* Build configuration list for PBXProject "simple-calc2" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -221,9 +221,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9DCE63C31DC011C600E1FF33 /* simple-calc */,
-				9DCE63D71DC011C700E1FF33 /* simple-calcTests */,
-				9DCE63E21DC011C700E1FF33 /* simple-calcUITests */,
+				9DCE63C31DC011C600E1FF33 /* simple-calc2 */,
+				9DCE63D71DC011C700E1FF33 /* simple-calc2Tests */,
+				9DCE63E21DC011C700E1FF33 /* simple-calc2UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -286,12 +286,12 @@
 /* Begin PBXTargetDependency section */
 		9DCE63DA1DC011C700E1FF33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9DCE63C31DC011C600E1FF33 /* simple-calc */;
+			target = 9DCE63C31DC011C600E1FF33 /* simple-calc2 */;
 			targetProxy = 9DCE63D91DC011C700E1FF33 /* PBXContainerItemProxy */;
 		};
 		9DCE63E51DC011C700E1FF33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9DCE63C31DC011C600E1FF33 /* simple-calc */;
+			target = 9DCE63C31DC011C600E1FF33 /* simple-calc2 */;
 			targetProxy = 9DCE63E41DC011C700E1FF33 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -445,7 +445,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.benjinman.simple-calcTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simple-calc.app/simple-calc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simple-calc2.app/simple-calc2";
 			};
 			name = Debug;
 		};
@@ -459,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.benjinman.simple-calcTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simple-calc.app/simple-calc";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/simple-calc2.app/simple-calc2";
 			};
 			name = Release;
 		};
@@ -492,7 +492,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9DCE63BF1DC011C600E1FF33 /* Build configuration list for PBXProject "simple-calc" */ = {
+		9DCE63BF1DC011C600E1FF33 /* Build configuration list for PBXProject "simple-calc2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DCE63EA1DC011C700E1FF33 /* Debug */,
@@ -501,29 +501,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9DCE63EC1DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calc" */ = {
+		9DCE63EC1DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calc2" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DCE63ED1DC011C700E1FF33 /* Debug */,
 				9DCE63EE1DC011C700E1FF33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9DCE63EF1DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calcTests" */ = {
+		9DCE63EF1DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calc2Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DCE63F01DC011C700E1FF33 /* Debug */,
 				9DCE63F11DC011C700E1FF33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		9DCE63F21DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calcUITests" */ = {
+		9DCE63F21DC011C700E1FF33 /* Build configuration list for PBXNativeTarget "simple-calc2UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9DCE63F31DC011C700E1FF33 /* Debug */,
 				9DCE63F41DC011C700E1FF33 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
