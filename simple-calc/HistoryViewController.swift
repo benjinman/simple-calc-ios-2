@@ -23,7 +23,6 @@ class HistoryViewController: UIViewController {
     }
     
     public func addHistory(_ label: UILabel) {
-        print("label is: \(label.text!)")
         self.history.addSubview(label)
     }
 }

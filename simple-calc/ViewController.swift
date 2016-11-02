@@ -78,7 +78,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func fact(_ sender: AnyObject) {
-        result.text! += " fact "
+        result.text! += " fact"
     }
     
     @IBAction func avg(_ sender: AnyObject) {
