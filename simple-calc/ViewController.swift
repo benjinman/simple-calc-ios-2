@@ -162,6 +162,7 @@ class ViewController: UIViewController {
     
     @IBAction func calculate(_ sender: AnyObject) {
         let line = result.text!
+        
         var answer : Int = 0;
         if (line.contains("count") || line.contains("avg") || line.contains("fact")) {
             let nums : [String] = line.characters.split(separator: " ").map(String.init);
@@ -187,6 +188,14 @@ class ViewController: UIViewController {
             let secondNum : Int = Int(String(nums[2]))!
             result.text! = String(mathOperation(left: firstNum, right: secondNum, operation: oprtr!))
         }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let history = storyboard.instantiateViewController(withIdentifier: "historyController") as! HistoryViewController
+        self.present(history, animated: true, completion: nil)
+        let label = UILabel()
+        label.frame = CGRect(x: 15, y: 15, width: 200, height: 40)
+        label.text = "\(line) = \(result.text!)"
+        history.addHistory(label)
     }
 }
 
